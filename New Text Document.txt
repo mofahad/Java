@@ -1,0 +1,10 @@
+class StingImmutable
+{
+public static void main(String arg[])
+{
+    String s="Hello";
+    String s1="Fahad";
+String s2= new String ("easy classes");
+ s1.concat("u are good boy");
+}
+}

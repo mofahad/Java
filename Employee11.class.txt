@@ -1,0 +1,52 @@
+class Employee11{
+private String name;
+private String address;
+private int num;
+
+public Employee11 (String name , String address , int num){
+System.out.println("Constructing an Employee11");
+this.name= name ;
+this.address= address;
+this.num = num;
+}
+public String toString(){
+return name +" " + address + " " + num;
+}
+public String getname()
+{
+return name;
+}
+public String getAddress()
+{
+return address;
+}
+public int getNum()
+{
+return num;
+}
+
+public class Salary extends Employee11{
+private double salary;
+public Salary(String name , String address, int num, double salary){
+super(name , address ,num );
+setSalary(salary);
+}
+ public double getsalary(){
+returrn salary;
+}
+
+public void setSalary(double newSalary){
+if(newSalary >=0.0)
+{
+salary =new Salary;
+}
+}
+public class virtualDemo
+{
+public static void main(String args[]){
+Salary s = new Salary("mohammed fahad","UP", 12332.99);
+Employee11 e= new Salary("john ","USA",2,2400.0);
+System.out.println("sala choor ");
+}}
+}
+} 
